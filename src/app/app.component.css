@@ -1,0 +1,58 @@
+.wrapper {
+    margin: 0 10em;
+    text-align: center;
+}
+
+.category__container {
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+button {
+    background: none;
+    padding: 1rem;
+    color: black;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    border-radius: .3em;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+button.selected {
+  background-color: green;
+  color: white;
+}
+  
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    margin-top: 1em;
+    font-size: 2rem;
+}
+
+.mood-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2em 0 1em 0;
+}
+
+.mood-button {
+  flex: 0 0 calc(20% - 1em); /* Calculate width for 5 buttons per row */
+  background: none;
+  padding: 1rem;
+  color: black;
+  border: 1px solid salmon;
+  text-decoration: none;
+  border-radius: .3em;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+  
